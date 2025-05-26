@@ -1,0 +1,1916 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DAMIR </title>
+  <link rel="stylesheet" href="styles/navbar.css">
+  <link rel="stylesheet" href="styles/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+  <!-- the header/navigation of this website -->
+   
+  <header class="header">
+    <div class="brand">
+      <a href="index.html">
+        <div class="brand-name">
+          DAMIR
+        </div>
+      </a>
+    </div>
+
+    <div class="menu-icon">
+      <i class="fa-solid fa-bars fa-2x" id="js-menu-icon"></i>
+      <i class="fa-solid fa-xmark fa-2x" hidden style="display: none;" id="js-cancel-icon"></i>
+    </div>
+
+    <nav id="js-navbar">
+      <!-- <div class="cancel-icon" id="js-cancel-icon">
+        <img src="images/icons/Cancel.svg" alt="" width="30px">
+      </div> -->
+      <ul>
+        <li><a href="index.html">Products</a></li>
+        <li><a href="#products" id="product-link">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+
+    <!-- Landing page  -->
+    <section class="home-page">
+      <img src="images/home_img2.jpg" alt="" class="home-img">
+      <div class="overlay">
+
+        <div class="home-content">
+          <div class="contents">
+            <h2>DAMIR AND COMPANY</h2>
+            <button onclick="window.location.href='/contact.html'" class="home-btn">
+              <span>Contact Us</span>
+            </button>
+          </div>
+  
+          <img src="images/home_img.jpg" alt="image-home2" class="home-img2">
+        </div>
+      </div>
+    </section>
+
+    <section class="VPR-container">
+      <div class="VPR-content">
+        <h2 class="VPR-text">
+          Our VPR refinery is capable of processing a flexible blend of crude oil and condensate to produce naphtha, jet fuel, <span style="color: rgb(189, 158, 2);">gas oil and residuals</span>
+        </h2>
+
+        <p class="VPR-p-content">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus euismod justo nunc, id vulputate nunc pulvinar ut. Suspendisse dapibus ut orci id gravida. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Suspendisse vitae augue sodales mauris tristique pulvinar pellentesque id libero.
+        </p>
+      </div>
+    </section>
+
+    <!-- section five the refinery page  -->
+    <section class="about-container">
+      <div class="refinery-row">
+        <div class="refinery-col">
+          <h3>About Us</h3>
+          <h2>
+            Expansion and optimisation over the last two decades
+          </h2>
+          <p class="p-refinery">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus euismod justo nunc, id vulputate nunc pulvinar ut. Suspendisse dapibus ut orci id gravida. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Suspendisse vitae augue sodales mauris tristique pulvinar pellentesque id libero.
+          </p>
+        </div>
+
+
+        <div class="refinery-col">
+          <!-- <div class="refinery-img-div"> -->
+            <img src="images/sec-5_img.jpg" alt="" class="refinery-img">
+          <!-- </div> -->
+        </div>
+      </div>
+    </section>
+
+
+    <!--  contact section page  -->
+    <section class="contact-container">
+      <div class="contact-content">
+        <div class="contact-text-div">
+          <h3>Contact Us</h3>
+          <h2>
+            For enquiries or for further information please get in touch or send us a message
+          </h2>
+          <div class="address-container">
+            <i class="fa-solid fa-location-dot" style="color: rgb(189, 158, 2);"></i>
+            <p>
+              95, kv.67, Ulitsa Estaya, Pavlodar G. A.
+              Kazakhstan.
+            </p>
+          </div>
+          <div class="email-container">
+            <i class="fa-solid fa-envelope" style="color: rgb(189, 158, 2);"></i>
+            <p>damk@dam.hk | sales@dam.hk</p>
+          </div>
+          <div class="phone-container" style="color: rgb(189, 158, 2);">
+            <i class="fa-solid fa-phone"></i>
+            <p>+7676554544</p>
+          </div>
+        </div>
+
+        <div class="contact-form-div">
+          <form>
+            <div class="form-group">
+              <label for="name">Your name</label>
+              <input type="text" id="name" name="name" placeholder="Name"  required>
+            </div>
+            <div class="form-group">
+              <label for="email">Your email address</label>
+              <input type="email" id="email" name="email" placeholder="Email"  required>
+            </div>
+            <div class="form-group">
+              <label for="companey">Your company</label>
+              <input type="text" id="companey" name="companey" placeholder="Company"  required>
+            </div>
+            <div class="form-group">
+              <label for="message">Your message</label>
+              <textarea name="message" id="message" placeholder="Type here..."></textarea>
+            </div>
+            <input type="submit" value="Send Message" class="submit-btn">
+          </form>
+        </div>
+      </div>
+
+      <div class="contact-map">
+        <iframe width="100%" height="350" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=95,%20kv.67,%20Ulitsa%20Estaya,%20Pavlodar%20G.%20A.%20Kazakhstan+(DAMIR)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed">
+          <a href="https://www.gps.ie/collections/personal-trackers/">Personl trackers</a>
+        </iframe>
+      </div>
+    </section>
+
+    <!-- the second section of this page  -->
+    <!-- <section class="diesel-container">
+      <div class="row">
+        <div class="col">
+          <p class="p-content">
+            <b>APRIORI OIL REFINERY COMPANY </b>is one of the largest enterprise in Kazakhstan Fedration for oil refining and production of oil.
+            <br>
+            <br>
+            The refinery was put into operation in 1988 and is focused on processing of oil raw materials of Siberian oil fields. The enterprise has a balanced capacity of 6,0 million tons of crude oil per year.
+            <br>
+            <br>
+            Apriori produces a wide range of oil products. Among them motor petrol of various brands, diesel fuel, oil fuel (mazout), hydrocarbon liquefied gases, vacuum gas oil, technical sulfur, bitumen of several grades (construction, road, roofing), petroleum coke.
+            <br>
+            <br>
+            The structure of the refinery includes a Complex of Crude Oil Primary Distillation (LK-6U), Complex of Compounding and Oil Products Dispatch, Complex of Crude Oil Advanced Processing (a fuel complex – KT-1 for deep processing of fuel oil), Complex of Heavy Oil Residue Processing which includes the several process units such as: Delayed Coking Unit, Coke Calcination Unit, Bitumen Production Unit, Sulfur Recovery Unit, Sulfur Granulation Unit. At the refinery there are Hydrogen Production Unit and Oil Sludge Processing Unit, as well as large auxiliary units – Water Supply and Sewerage plant and Central Refinery Laboratory (CRL).
+            <br>
+            <br>
+            As a result of the upgrading project implementation two new complexes of process units were built and commissioned in December 2014 at the Refinery: Isomerization and Naphtha Splitter unit and Complex of Sulfur Recovery Units. The 12 new U&O facilities have been built for normal operation of constructed and brought into service units. In addition, there were revamped existing production capacities: Complex of Crude Oil Primary Distillation and Complex of Crude Oil Advanced Processing, as well as Delayed Coking Unit. All these measures ensured the production of K-4 motor fuels: diesel and gasoline of RON-92, 95 in accordance with the requirements of the Technical Regulations of the Customs Union TR CU 013/2011.
+            <br>
+            <br>
+            The enterprise has well-developed Utilities & Offsite facilities: commodity and raw feed tank farms, liquefied gases tank farm, loading and unloading racks for oil products transportation by rail and road transport.
+            <br>
+            <br>
+            The refinery conducts an active social policy; all necessary conditions are created for labor, life and health of employees.
+            <br>
+            <br>
+            The priority for Apriori today is to ensure the production of motor fuels corresponding to the ecological classes K4, K5, in the amount necessary for the country’s needs, increase technical resource of the refinery, its output for a three-year inter-repair cycle, production of Jet A jet fuel of international standard which is new for the refinery.
+          </p>
+        </div>
+        <div class="col">
+          <img src="images/diesel_cont-img.jpg" alt="" class="diesel-pic">
+          <p class="p-content">
+            Safe, Efficient and Reliable - Coast to Coast
+            <br>
+            <br>
+            With a crude oil refining capacity of approximately 2.9 million barrels per calendar day in our 13-refinery system, Apriori plays a significant role providing refined products that you use every day.
+            <br>
+            <br>
+
+            Our refineries are integrated with each other via pipelines, terminals and barges to maximize operating efficiency. The transportation links that connect our refineries allow the movement of intermediate products between refineries to optimize operations, produce higher margin products and efficiently utilize our processing capacity.
+          </p>
+        </div>
+      </div>
+    </section> -->
+
+    <!-- table container code  -->
+    <section class="table-container" id="products">
+      <div class="table-content">
+        <p class="product-text">Our <span style="color: rgba(193,161,0,1);">Products</span></p>
+        <div class="table-row">
+          <div class="table-col">
+            <table>
+              <thead>
+                <tr>
+                  <th><b>NO</b></th>
+                  <th><b>Product name, grade, type, sort</b></th>
+                  <th><b>Technical regulatory documents</b></th>
+                  <th><b>TN VED EEU; OKP RB</b>
+                  </th>
+                </tr>
+              </thead>
+              
+              <tbody>
+                <tr>
+                  <td>1</td>
+                  <td>AI-92-K5 motor gasoline (winter)</td>
+                  <td>TU 400091131.006-2009</td>
+                  <td>2710124130; <br> 19.20.21.930</td>
+                </tr>
+              </tbody>
+              
+              <tbody>
+                <tr>
+                  <td>2</td>
+                  <td>AI-92-K5 motor gasoline (winter)</td>
+                  <td>TU 400091131.006-2009</td>
+                  <td>2710124130; <br> 19.20.21.930</td>
+                </tr>
+              </tbody>
+              
+              <tbody>
+                <tr>
+                  <td>3</td>
+                  <td>AI-80-K5 unleaded gasoline	</td>
+                  <td>GOST 31077-2002	</td>
+                  <td>2710124120; <br> 19.20.21.920</td>
+                </tr>
+              </tbody>
+              
+              <tbody>
+                <tr>
+                  <td>4</td>
+                  <td>AI-95-K5-Euro unleaded gasoline</td>
+                  <td>STB 1656-2016	</td>
+                  <td>2710124500; <br> 19.20.21.950</td>
+                </tr>
+              </tbody>
+              
+              <tbody>
+                <tr>
+                  <td>5</td>
+                  <td>AI-95-K5-Euro unleaded gasoline</td>
+                  <td>STB 1656-2016	</td>
+                  <td>2710124130; <br> 19.20.21.950</td>
+                </tr>
+              </tbody>
+              
+              <tbody>
+                <tr>
+                  <td><b>2</b></td>
+                  <td><b>DIESEL FUEL</b></td>
+                  <td></td>
+                  <td></td>
+                </tr>
+              </tbody>
+  
+              <tbody>
+                <tr>
+                  <td>6</td>
+                  <td>DT-Z-K5 diesel fuel, class 0	</td>
+                  <td>STB 1658-2015</td>
+                  <td> 2710194220;<br> 19.20.26.520</td>
+                </tr>
+              </tbody>
+  
+              <tbody>
+                <tr>
+                  <td>7</td>
+                  <td>DT-Z-K5 diesel fuel, class 2	</td>
+                  <td>STB 1658-2015</td>
+                  <td> 2710194220;<br> 19.20.26.520</td>
+                </tr>
+              </tbody>
+  
+              <tbody>
+                <tr>
+                  <td>8</td>
+                  <td>DT-Z-K5 diesel fuel, grade F		</td>
+                  <td>STB 1658-2015</td>
+                  <td>2710194210;<br> 19.20.26.510</td>
+                </tr>
+              </tbody>
+  
+              <tbody>
+                <tr>
+                  <td>9</td>
+                  <td>DT-L-K5 diesel fuel, grade C	</td>
+                  <td>STB 1658-2015</td>
+                  <td>2710194210;<br> 19.20.26.510</td>
+                </tr>
+              </tbody>
+  
+              <tbody>
+                <tr>
+                  <td>10</td>
+                  <td>KO-20 lamp kerosene</td>
+                  <td>TU 38.401-58-10-01</td>
+                  <td>2710192500; <br> 19.20.24.100</td>
+                </tr>
+              </tbody>
+  
+              <tbody>
+                <tr>
+                  <td>11</td>
+                  <td>RT jet fuel	</td>
+                  <td>GOST 10227-86</td>
+                  <td>2710192100;<br> 19.20.25.000</td>
+                </tr>
+              </tbody>
+  
+              <tbody>
+                <tr>
+                  <td>12</td>
+                  <td>Industrial eco-friendly kerosene</td>
+                  <td>TU 300042199.025-2011	</td>
+                  <td>2710192500; <br> 19.20.24.900
+                  </td>
+                </tr>
+              </tbody>
+  
+              <tbody>
+                <tr>
+                  <td>13</td>
+                  <td>Petroleum orthoxylene</td>
+                  <td>TU 300042199.015-2010</td>
+                  <td>2902410000; <br> 20.14.12.430
+                  </td>
+                </tr>
+              </tbody>
+  
+              <tbody>
+                <tr>
+                  <td>14</td>
+                  <td>Petroleum paraxylene, highly purified	</td>
+                  <td>TU 38.101255-87	</td>
+                  <td>2902430000; <br> 20.14.12.450
+                  </td>
+                </tr>
+              </tbody> 
+  
+              <tbody>
+                <tr>
+                  <td>15</td>
+                  <td>C10 aromatic hydrocarbons blend	</td>
+                  <td>TU 300220696.030-2005		</td>
+                  <td>2707509000; <br>20.14.12.990
+                  </td>
+                </tr>
+              </tbody>
+  
+              <tbody>
+                <tr>
+                  <td>16</td>
+                  <td>Petroleum toluene	</td>
+                  <td>GOST 31906-2013</td>
+                  <td>2902300000; <br> 20.14.12.250
+                  </td>
+                </tr>
+              </tbody>
+  
+              <tbody>
+                <tr>
+                  <td>17</td>
+                  <td>Petroleum benzene, highly-purified</td>
+                  <td>GOST 9572-93</td>
+                  <td>2902200000;<br> 20.14.12.230
+                  </td>
+                </tr>
+              </tbody>
+  
+              <tbody>
+                <tr>
+                  <td>18</td>
+                  <td>Petroleum benzene, purified</td>
+                  <td>GOST 9572-93</td>
+                  <td>2902200000; <br> 20.14.12.230
+                  </td>
+                </tr>
+              </tbody>
+             
+              <tbody>
+                <tr>
+                  <td>19</td>
+                  <td>Petroleum solvent (nefras-A-130/150)	</td>
+                  <td>GOST 10214-78</td>
+                  <td>2902440000;<br> 20.14.12.470
+                  </td>
+                </tr>
+              </tbody>
+             
+              <tbody>
+                <tr>
+                  <td>20</td>
+                  <td>Road bitumen, grade 40/60</td>
+                  <td>
+                    STB EN 12591-2010 (EN 12591;2009), TU 400091131.009-2011
+                  </td>
+                  <td>2713200000; <br> 19.20.42.530</td>
+                </tr>
+              </tbody>
+             
+              <tbody>
+                <tr>
+                  <td>21</td>
+                  <td>Road bitumen, grade 50/70	</td>
+                  <td>
+                    STB EN 12591-2010 (EN 12591;2009), TU 400091131.009-2011	                
+                  </td>
+                  <td>2713200000; <br> 19.20.42.530</td>
+                </tr>
+              </tbody>
+             
+              <tbody>
+                <tr>
+                  <td>22</td>
+                  <td>Road bitumen, grade 70/100</td>
+                  <td>
+                    STB EN 12591-2010 (EN 12591;2009), TU 400091131.009-2011	                
+                  </td>
+                  <td>2713200000; <br> 19.20.42.530</td>
+                </tr>
+              </tbody>
+             
+              <tbody>
+                <tr>
+                  <td>23</td>
+                  <td>Road bitumen, grade 100/150</td>
+                  <td>
+                    STB EN 12591-2010 (EN 12591;2009), TU 400091131.009-2011	                
+                  </td>
+                  <td>2713200000; <br> 19.20.42.530
+                  </td>
+                </tr>
+              </tbody>
+             
+              <tbody>
+                <tr>
+                  <td>24</td>
+                  <td>Road bitumen, grade 160/220</td>
+                  <td>
+                    STB EN 12591-2010 (EN 12591;2009), TU 400091131.009-2011	                
+                  </td>
+                  <td>2713200000; <br> 19.20.42.530
+                  </td>
+                </tr>
+              </tbody>
+             
+              <tbody>
+                <tr>
+                  <td>25</td>
+                  <td>
+                    Viscous road petroleum bitumen, grade BND 50/70	
+                  </td>
+                  <td>GOST 33133-2014</td>
+                  <td>2713200000;<br> 19.20.42.530
+                  </td>
+                </tr>
+              </tbody>
+             
+              <tbody>
+                <tr>
+                  <td>26</td>
+                  <td>
+                    Viscous road petroleum bitumen, grade BND 70/100
+                  </td>
+                  <td>GOST 33133-2014	</td>
+                  <td>2713200000; <br> 19.20.42.530
+                  </td>
+                </tr>
+              </tbody>
+             
+              <tbody>
+                <tr>
+                  <td>27</td>
+                  <td>
+                    Viscous road petroleum bitumen, grade BND 100/130	
+                  </td>
+                  <td>GOST 33133-2014</td>
+                  <td>2713200000; <br> 19.20.42.530
+                  </td>
+                </tr>
+              </tbody>
+  
+              <tbody>
+                <tr>
+                  <td><b>5.2</b></td>
+                  <td><b>ROOF BITUMENS</b></td>
+                  <td></td>
+                  <td></td>
+                </tr>
+              </tbody>
+  
+              <tbody>
+                <tr>
+                  <td>28</td>
+                  <td>
+                    Compounded petroleum bitumen for roofing, grade BNKK-40/180	
+                  </td>
+                  <td>TU 300220696.018-2003	</td>
+                  <td>2713200000; <br> 19.20.42.550
+                  </td>
+                </tr>
+              </tbody>
+  
+              <tbody>
+                <tr>
+                  <td>29</td>
+                  <td>
+                    Compounded petroleum bitumen for roofing, grade BNKK-45/75		
+                  </td>
+                  <td>TU 300220696.018-2003	</td>
+                  <td>2713200000; <br> 19.20.42.550
+                  </td>
+                </tr>
+              </tbody>
+  
+              <tbody>
+                <tr>
+                  <td>30</td>
+                  <td>
+                    Compounded petroleum bitumen for roofing, grade BNKK-45/130		
+                  </td>
+                  <td>TU 300220696.018-2003	</td>
+                  <td>2713200000; <br> 19.20.42.550
+                  </td>
+                </tr>
+              </tbody>
+  
+              <tbody>
+                <tr>
+                  <td>31</td>
+                  <td>
+                    Compounded petroleum bitumen for roofing, grade BNKK-45/190			
+                  </td>
+                  <td>TU 300220696.018-2003	</td>
+                  <td>2713200000; <br> 19.20.42.550
+                  </td>
+                </tr>
+              </tbody>
+  
+              <tbody>
+                <tr>
+                  <td>32</td>
+                  <td>
+                    Compounded petroleum bitumen for roofing, grade BNKK-90/30				
+                  </td>
+                  <td>TU 300220696.018-2003	</td>
+                  <td>2713200000; <br> 19.20.42.550
+                  </td>
+                </tr>
+              </tbody>
+  
+              <tbody>
+                <tr>
+                  <td><b>5.3</b></td>
+                  <td><b>CONSTRUCTION BITUMENS	</b></td>
+                  <td></td>
+                  <td></td>
+                </tr>
+              </tbody>
+  
+              <tbody>
+                <tr>
+                  <td>33</td>
+                  <td>
+                    Petroleum bitumen for construction, grade BN 70/30				
+                  </td>
+                  <td>GOST 6617-76</td>
+                  <td>2713200000; <br> 19.20.42.510
+                  </td>
+                </tr>
+              </tbody>
+  
+              <tbody>
+                <tr>
+                  <td>34</td>
+                  <td>
+                    Petroleum bitumen for construction, grade BN 90/10				
+                  </td>
+                  <td>GOST 6617-76</td>
+                  <td>2713200000; <br> 19.20.42.510
+                  </td>
+                </tr>
+              </tbody>
+  
+              <tbody>
+                <tr>
+                  <td><b>5.4</b></td>
+                  <td><b>FEEDSTOCK FOR BITUMENS PRODUCTION</b></td>
+                  <td></td>
+                  <td></td>
+                </tr>
+              </tbody>
+  
+              <tbody>
+                <tr>
+                  <td>35</td>
+                  <td>
+                    Feedstock for petroleum bitumens production, grade 1				
+                  </td>
+                  <td>TU 300220696.011-2002	</td>
+                  <td>2713909000; <br> 19.20.42.900
+                  </td>
+                </tr>
+              </tbody>
+  
+              <tbody>
+                <tr>
+                  <td>36</td>
+                  <td>
+                    Feedstock for petroleum bitumens production, grade 2				
+                  </td>
+                  <td>TU 300220696.011-2002	</td>
+                  <td>2713909000; <br> 19.20.42.900
+                  </td>
+                </tr>
+              </tbody>
+  
+              <tbody>
+                <tr>
+                  <td>37</td>
+                  <td>
+                    Feedstock for petroleum bitumens production, grade 3				
+                  </td>
+                  <td>TU 300220696.011-2002	</td>
+                  <td>2713909000; <br> 19.20.42.900
+                  </td>
+                </tr>
+              </tbody>
+  
+              <tbody>
+                <tr>
+                  <td>38</td>
+                  <td>Vacuum mixed gasoil</td>
+                  <td>TU 300042199.008-2008	</td>
+                  <td>2710196409; <br> 19.20.27.900
+                  </td>
+                </tr>
+              </tbody>
+              
+              <tbody>
+                <tr>
+                  <td>39</td>
+                  <td>
+                    Furnace fuel oil 100, 2.50 %, ash, 25 °С	
+                  </td>
+                  <td>GOST 10585-2013</td>
+                  <td>2710196601; <br> 19.20.28.730
+                  </td>
+                </tr>
+              </tbody>
+  
+              <tbody>
+                <tr>
+                  <td>40</td>
+                  <td>
+                    Furnace fuel oil 100, 2.50 %, low-ash, 25 °С		
+                  </td>
+                  <td>GOST 10585-2013</td>
+                  <td>2710196601; <br> 19.20.28.730
+                  </td>
+                </tr>
+              </tbody>
+  
+              <tbody>
+                <tr>
+                  <td>41</td>
+                  <td>
+                    Furnace fuel oil 100, 3.00 %, ash, 25 °С	
+                  </td>
+                  <td>GOST 10585-2013</td>
+                  <td>
+                    2710196801; <br> 19.20.28.730, 
+                    <br> 19.20.28.740
+                  </td>
+                </tr>
+              </tbody>
+  
+              <tbody>
+                <tr>
+                  <td>42</td>
+                  <td>
+                    Furnace fuel oil 100, 3.00 %, low-ash, 25 °С		
+                  </td>
+                  <td>GOST 10585-2013</td>
+                  <td>
+                    2710196801; <br> 19.20.28.730, 
+                    <br> 19.20.28.740
+                  </td>
+                </tr>
+              </tbody>
+  
+              <tbody>
+                <tr>
+                  <td>43</td>
+                  <td>Mixed residual oil</td>
+                  <td>TU 300042199.061-2017	</td>
+                  <td>
+                    2710197100; <br> 19.20.29.300
+                  </td>
+                </tr>
+              </tbody>
+  
+              <tbody>
+                <tr>
+                  <td>44</td>
+                  <td>SN 150 base oil</td>
+                  <td>TU 300042199.060-2016	</td>
+                  <td></td>
+                </tr>
+              </tbody>
+  
+              <tbody>
+                <tr>
+                  <td>45</td>
+                  <td>SN 200 base oil</td>
+                  <td>TU 300042199.060-2016	</td>
+                  <td></td>
+                </tr>
+              </tbody>
+  
+              <tbody>
+                <tr>
+                  <td>46</td>
+                  <td>SN 350 base oil</td>
+                  <td>TU 300042199.060-2016	</td>
+                  <td></td>
+                </tr>
+              </tbody>
+  
+              <tbody>
+                <tr>
+                  <td>47</td>
+                  <td>SN 500 base oil</td>
+                  <td>TU 300042199.060-2016	</td>
+                  <td></td>
+                </tr>
+              </tbody>
+  
+              <tbody>
+                <tr>
+                  <td>48</td>
+                  <td>SN 650 base oil</td>
+                  <td>TU 300042199.060-2016	</td>
+                  <td></td>
+                </tr>
+              </tbody>
+  
+              <tbody>
+                <tr>
+                  <td>49</td>
+                  <td>SN 850 base oil</td>
+                  <td>TU 300042199.060-2016	</td>
+                  <td></td>
+                </tr>
+              </tbody>
+  
+              <tbody>
+                <tr>
+                  <td>50</td>
+                  <td>SN 1200 base oil</td>
+                  <td>TU 300042199.060-2016	</td>
+                  <td></td>
+                </tr>
+              </tbody>
+  
+              <tbody>
+                <tr>
+                  <td>51</td>
+                  <td>HC4 base oil	</td>
+                  <td>TU 300042199.037-2015</td>
+                  <td></td>
+                </tr>
+              </tbody>
+  
+              <tbody>
+                <tr>
+                  <td>52</td>
+                  <td>HC7 base oil</td>
+                  <td>TU 300042199.062-2017</td>
+                  <td></td>
+                </tr>
+              </tbody>
+  
+              <tbody>
+                <tr>
+                  <td>53</td>
+                  <td>I-20A INDUSTRIAL OIL</td>
+                  <td>GOST 20799-88	</td>
+                  <td>
+                    2710199800; <br> 19.20.29.592
+                  </td>
+                </tr>
+              </tbody>
+  
+              <tbody>
+                <tr>
+                  <td>54</td>
+                  <td>I-30A INDUSTRIAL OIL</td>
+                  <td>GOST 20799-88	</td>
+                  <td>
+                    2710199800; <br> 19.20.29.592
+                  </td>
+                </tr>
+              </tbody>
+  
+              <tbody>
+                <tr>
+                  <td>55</td>
+                  <td>I-40A INDUSTRIAL OIL</td>
+                  <td>GOST 20799-88	</td>
+                  <td>
+                    2710199800; <br> 19.20.29.592
+                  </td>
+                </tr>
+              </tbody>
+  
+              <tbody>
+                <tr>
+                  <td>56</td>
+                  <td>I-50А INDUSTRIAL OIL</td>
+                  <td>GOST 20799-88	</td>
+                  <td>
+                    2710199800; <br> 19.20.29.592
+                  </td>
+                </tr>
+              </tbody>
+  
+              <tbody>
+                <tr>
+                  <td>57</td>
+                  <td>I-60A INDUSTRIAL OIL</td>
+                  <td>TU 300042199.066-2018</td>
+                  <td>
+                    2710199800; <br> 19.20.29.592
+                  </td>
+                </tr>
+              </tbody>
+  
+              <tbody>
+                <tr>
+                  <td>58</td>
+                  <td>I-70A INDUSTRIAL OIL</td>
+                  <td>TU 300042199.066-2018</td>
+                  <td>
+                    2710199800; <br> 19.20.29.592
+                  </td>
+                </tr>
+              </tbody>
+  
+              <tbody>
+                <tr>
+                  <td>59</td>
+                  <td>I-80A INDUSTRIAL OIL</td>
+                  <td>TU 300042199.066-2018</td>
+                  <td>
+                    2710199800; <br> 19.20.29.592
+                  </td>
+                </tr>
+              </tbody>
+  
+              <tbody>
+                <tr>
+                  <td>60</td>
+                  <td>IGP-18 INDUSTRIAL OIL</td>
+                  <td>
+                    TU 0253-053-00151911-2008		
+                  </td>
+                  <td>
+                    2710199800; <br> 19.20.29.592
+                  </td>
+                </tr>
+              </tbody>
+  
+              <tbody>
+                <tr>
+                  <td>61</td>
+                  <td>IGP-30 INDUSTRIAL OIL</td>
+                  <td>
+                    TU 0253-053-00151911-2008		
+                  </td>
+                  <td>
+                    2710199800; <br> 19.20.29.592
+                  </td>
+                </tr>
+              </tbody>
+  
+              <tbody>
+                <tr>
+                  <td>62</td>
+                  <td>IGP-38 INDUSTRIAL OIL</td>
+                  <td>
+                    TU 0253-053-00151911-2008		
+                  </td>
+                  <td>
+                    2710199800; <br> 19.20.29.592
+                  </td>
+                </tr>
+              </tbody>
+  
+              <tbody>
+                <tr>
+                  <td>63</td>
+                  <td>IGP-49 INDUSTRIAL OIL</td>
+                  <td>
+                    TU 0253-053-00151911-2008		
+                  </td>
+                  <td>
+                    2710199800; <br> 19.20.29.592
+                  </td>
+                </tr>
+              </tbody>
+  
+              <tbody>
+                <tr>
+                  <td>64</td>
+                  <td>IGP-72 INDUSTRIAL OIL</td>
+                  <td>
+                    TU 0253-053-00151911-2008		
+                  </td>
+                  <td>
+                    2710199800; <br> 19.20.29.592
+                  </td>
+                </tr>
+              </tbody>
+  
+              <tbody>
+                <tr>
+                  <td><b>7.3</b></td>
+                  <td><b>COMPRESSOR OILS</b></td>
+                  <td></td>
+                  <td></td>
+                </tr>
+              </tbody>
+  
+              <tbody>
+                <tr>
+                  <td>65</td>
+                  <td>KS-19 COMPRESSOR OIL</td>
+                  <td>GOST 9243-75</td>
+                  <td>
+                    2710198200; <br> 19.20.29.512
+                  </td>
+                </tr>
+              </tbody>
+  
+              <tbody>
+                <tr>
+                  <td><b>7.4</b></td>
+                  <td><b>HYDRAULIC OILS</b></td>
+                  <td></td>
+                  <td></td>
+                </tr>
+              </tbody>
+  
+              <tbody>
+                <tr>
+                  <td>66</td>
+                  <td>
+                    MGE-46V OIL FOR HYDROSTATIC DRIVES
+                  </td>
+                  <td>TU 38.001347-00</td>
+                  <td>
+                    2710198400; <br> 19.20.29.591
+                  </td>
+                </tr>
+              </tbody>
+  
+              <tbody>
+                <tr>
+                  <td><b>7.5</b></td>
+                  <td><b>ENGINE OILS</b></td>
+                  <td></td>
+                  <td></td>
+                </tr>
+              </tbody>
+  
+              <tbody>
+                <tr>
+                  <td>67</td>
+                  <td>
+                    “APRIORI 2T” engine oil for two-stroke gasoline engines, grade “APRIORI 2T-SUPER”	
+                  </td>
+                  <td>TU 300042199.017-2010</td>
+                  <td>
+                    2710198200; <br> 19.20.29.511
+                  </td>
+                </tr>
+              </tbody>
+  
+              <tbody>
+                <tr>
+                  <td>68</td>
+                  <td>
+                    “APRIORI DZ” ENGINE OIL, grade SAE 10W-40		
+                  </td>
+                  <td>TU 300042199.010-2009</td>
+                  <td>
+                    2710198200; <br> 19.20.29.511
+                  </td>
+                </tr>
+              </tbody>
+  
+              <tbody>
+                <tr>
+                  <td>69</td>
+                  <td>
+                    M-8V UNIVERSAL ENGINE OIL		
+                  </td>
+                  <td>GOST 10541-78	</td>
+                  <td>
+                    2710198200; <br> 19.20.29.511
+                  </td>
+                </tr>
+              </tbody>
+  
+              <tbody>
+                <tr>
+                  <td>70</td>
+                  <td>
+                    M-8G2 ENGINE OIL FOR AUTOMOTIVE DIESELS			
+                  </td>
+                  <td>GOST 10541-78	</td>
+                  <td>
+                    2710198200; <br> 19.20.29.511
+                  </td>
+                </tr>
+              </tbody>
+  
+              <tbody>
+                <tr>
+                  <td>71</td>
+                  <td>
+                    M-10G2 ENGINE OIL FOR AUTOMOTIVE DIESELS				
+                  </td>
+                  <td>GOST 10541-78	</td>
+                  <td>
+                    2710198200; <br> 19.20.29.511
+                  </td>
+                </tr>
+              </tbody>
+  
+              <tbody>
+                <tr>
+                  <td>72</td>
+                  <td>
+                    M-8G2k ENGINE OIL FOR AUTOMOTIVE DIESELS, higher grade					
+                  </td>
+                  <td>GOST 10541-78	</td>
+                  <td>
+                    2710198200; <br> 19.20.29.511
+                  </td>
+                </tr>
+              </tbody>
+  
+              <tbody>
+                <tr>
+                  <td>73</td>
+                  <td>
+                    M-10G2k ENGINE OIL FOR AUTOMOTIVE DIESELS, higher grade						
+                  </td>
+                  <td>GOST 10541-78</td>
+                  <td>
+                    2710198200; <br> 19.20.29.511
+                  </td>
+                </tr>
+              </tbody>
+  
+              <tbody>
+                <tr>
+                  <td>74</td>
+                  <td>
+                    M-10G2k ENGINE OIL FOR AUTOMOTIVE DIESELS, first grade						
+                  </td>
+                  <td>GOST 10541-78</td>
+                  <td>
+                    2710198200; <br> 19.20.29.511
+                  </td>
+                </tr>
+              </tbody>
+  
+              <tbody>
+                <tr>
+                  <td>75</td>
+                  <td>
+                    M-8DM ENGINE OIL FOR AUTOMOTIVE DIESELS							
+                  </td>
+                  <td>GOST 10541-78</td>
+                  <td>
+                    2710198200; <br> 19.20.29.511
+                  </td>
+                </tr>
+              </tbody>
+  
+              <tbody>
+                <tr>
+                  <td>76</td>
+                  <td>
+                    M-10DM ENGINE OIL FOR AUTOMOTIVE DIESELS								
+                  </td>
+                  <td>GOST 10541-78</td>
+                  <td>
+                    2710198200; <br> 19.20.29.511
+                  </td>
+                </tr>
+              </tbody>
+  
+              <tbody>
+                <tr>
+                  <td>77</td>
+                  <td>
+                    M-14V2 engine oil for diesel engines									
+                  </td>
+                  <td>GOST 10541-78</td>
+                  <td>
+                    2710198200; <br> 19.20.29.511
+                  </td>
+                </tr>
+              </tbody>
+  
+              <tbody>
+                <tr>
+                  <td>78</td>
+                  <td>
+                    M-14G2CS engine oil for diesel engines										
+                  </td>
+                  <td>GOST 10541-78</td>
+                  <td>
+                    2710198200; <br> 19.20.29.511
+                  </td>
+                </tr>
+              </tbody>
+  
+              <tbody>
+                <tr>
+                  <td>79</td>
+                  <td>
+                    M-8G2k ENGINE OIL, first grade										
+                  </td>
+                  <td>GOST 10541-78</td>
+                  <td>
+                    2710198200; <br> 19.20.29.511
+                  </td>
+                </tr>
+              </tbody>
+  
+              <tbody>
+                <tr>
+                  <td>80</td>
+                  <td>
+                    “APRIORI RC-30” oil for cutting chains											
+                  </td>
+                  <td>TU 300042199.064-2018	</td>
+                  <td>
+                    2710000000; <br> 19.20.29.590
+                  </td>
+                </tr>
+              </tbody>
+  
+              <tbody>
+                <tr>
+                  <td><b>7.6.</b></td>
+                  <td><b>NEW ENGINE OILS</b></td>
+                  <td></td>
+                  <td></td>
+                </tr>
+              </tbody>
+  
+              <tbody>
+                <tr>
+                  <td>81</td>
+                  <td>
+                    “APRIORI GARANT” ENGINE OIL, grade SAE 5W-30												
+                  </td>
+                  <td>
+                    TU 300042199.026-20112710198200; 
+                    <br>
+                    19.20.29.511	
+                  </td>
+                  <td></td>
+                </tr>
+              </tbody>
+  
+              <tbody>
+                <tr>
+                  <td>82</td>
+                  <td>
+                    “APRIORI PREMIER” ENGINE OIL, grade SAE 5W-30												
+                  </td>
+                  <td> TU 300042199.027-2011</td>
+                  <td>
+                    2710198200; <br> 19.20.29.511
+                  </td>
+                </tr>
+              </tbody>
+  
+              <tbody>
+                <tr>
+                  <td>83</td>
+                  <td>
+                    “APRIORI GARANT” ENGINE OIL, grade SAE 5W-40												
+                  </td>
+                  <td> TU 300042199.027-2011</td>
+                  <td>
+                    2710198200; <br> 19.20.29.511
+                  </td>
+                </tr>
+              </tbody>
+  
+              <tbody>
+                <tr>
+                  <td>84</td>
+                  <td>
+                    “APRIORI GARANT” ENGINE OIL, grade SAE 10W-40													
+                  </td>
+                  <td> TU 300042199.027-2011</td>
+                  <td>
+                    2710198200; <br> 19.20.29.511
+                  </td>
+                </tr>
+              </tbody>
+  
+              <tbody>
+                <tr>
+                  <td>85</td>
+                  <td>
+                    “ARKTIKGAZ GARANT” ENGINE OIL, grade SAE 15W-40													
+                  </td>
+                  <td> TU 300042199.027-2011</td>
+                  <td>
+                    2710198200; <br> 19.20.29.511
+                  </td>
+                </tr>
+              </tbody>
+  
+              <tbody>
+                <tr>
+                  <td>86</td>
+                  <td>
+                    “APRIORI PREMIER” ENGINE OIL, grade SAE 5W-40													
+                  </td>
+                  <td> TU 300042199.027-2011</td>
+                  <td>
+                    2710198200; <br> 19.20.29.511
+                  </td>
+                </tr>
+              </tbody>
+  
+              <tbody>
+                <tr>
+                  <td>87</td>
+                  <td>
+                    “APRIORI PREMIER” ENGINE OIL, grade SAE 10W-40													
+                  </td>
+                  <td> TU 300042199.027-2011</td>
+                  <td>
+                    2710198200; <br> 19.20.29.511
+                  </td>
+                </tr>
+              </tbody>
+  
+              <tbody>
+                <tr>
+                  <td>88</td>
+                  <td>
+                    “APRIORI PREMIER” ENGINE OIL, grade SAE 15W-40													
+                  </td>
+                  <td> TU 300042199.027-2011</td>
+                  <td>
+                    2710198200; <br> 19.20.29.511
+                  </td>
+                </tr>
+              </tbody>
+  
+              <tbody>
+                <tr>
+                  <td>89</td>
+                  <td>
+                    “APRIORI DIESEL ULTRA L” ENGINE OIL, grade SAE 10W-40													
+                  </td>
+                  <td>TU 300042199.030-2012	</td>
+                  <td>
+                    2710198200; <br> 19.20.29.511
+                  </td>
+                </tr>
+              </tbody>
+  
+              <tbody>
+                <tr>
+                  <td>90</td>
+                  <td>
+                    “ARKTIKGAZ DIESEL ULTRA L” ENGINE OIL, grade SAE 15W-40													
+                  </td>
+                  <td>TU 300042199.030-2012	</td>
+                  <td>
+                    2710198200; <br> 19.20.29.511
+                  </td>
+                </tr>
+              </tbody>
+  
+              <tbody>
+                <tr>
+                  <td>91</td>
+                  <td>
+                    “APRIORI DIESEL PLUS L” ENGINE OIL, grade SAE 10W-40													
+                  </td>
+                  <td>TU 300042199.030-2012	</td>
+                  <td>
+                    2710198200; <br> 19.20.29.511
+                  </td>
+                </tr>
+              </tbody>
+  
+              <tbody>
+                <tr>
+                  <td>92</td>
+                  <td>
+                    “ARKTIKGAZ DIESEL PLUS L” ENGINE OIL, grade SAE 15W-40													
+                  </td>
+                  <td>TU 300042199.030-2012	</td>
+                  <td>
+                    2710198200; <br> 19.20.29.511
+                  </td>
+                </tr>
+              </tbody>
+  
+              <tbody>
+                <tr>
+                  <td><b>7.7.</b></td>
+                  <td><b>TRANSMISSION OILS</b></td>
+                  <td></td>
+                  <td></td>
+                </tr>
+              </tbody>
+  
+              <tbody>
+                <tr>
+                  <td>93</td>
+                  <td>
+                    APRIORI TI5-1 TRANSMISSION OIL												
+                  </td>
+                  <td>TU 300220696.007-2002	</td>
+                  <td>
+                    2710198800; <br> 19.20.29.594
+                  </td>
+                </tr>
+              </tbody>
+  
+              <tbody>
+                <tr>
+                  <td>94</td>
+                  <td>
+                    APRIORI TI5-2 TRANSMISSION OIL													
+                  </td>
+                  <td>TU 300220696.007-2002	</td>
+                  <td>
+                    2710198800; <br> 19.20.29.594
+                  </td>
+                </tr>
+              </tbody>
+  
+              <tbody>
+                <tr>
+                  <td>95</td>
+                  <td>
+                    TEp-15 TRANSMISSION OIL														
+                  </td>
+                  <td>GOST 23652-79</td>
+                  <td>
+                    2710198800; <br> 19.20.29.594
+                  </td>
+                </tr>
+              </tbody>
+  
+              <tbody>
+                <tr>
+                  <td>96</td>
+                  <td>
+                    APRIORI T transmission oil														
+                  </td>
+                  <td>TU 0253-033-00219158-98</td>
+                  <td>
+                    2710198800; <br> 19.20.29.594
+                  </td>
+                </tr>
+              </tbody>
+  
+              <tbody>
+                <tr>
+                  <td><b>8</b></td>
+                  <td>
+                    <b>OTHER PETROLEUM PRODUCTS</b>
+                  </td>
+                  <td></td>
+                  <td></td>
+                </tr>
+              </tbody>
+  
+              <tbody>
+                <tr>
+                  <td>97</td>
+                  <td>
+                    Raw pyrolysis gasoline, straight-run gasoline, grade A														
+                  </td>
+                  <td>TU 38.402-62-120-90	</td>
+                  <td>
+                    2710121109; <br> 19.20.23.920
+                  </td>
+                </tr>
+              </tbody>
+  
+              <tbody>
+                <tr>
+                  <td>98</td>
+                  <td>
+                    Raw pyrolysis gasoline, straight-run gasoline, grade B															
+                  </td>
+                  <td>TU 38.402-62-120-90	</td>
+                  <td>
+                    2710121109; <br> 19.20.23.920
+                  </td>
+                </tr>
+              </tbody>
+  
+              <tbody>
+                <tr>
+                  <td>99</td>
+                  <td>
+                    Petroleum slack wax, grade 1															
+                  </td>
+                  <td>TU 300220696.009-2002</td>
+                  <td>
+                    2712903900; <br> 19.20.42.900
+                  </td>
+                </tr>
+              </tbody>
+  
+              <tbody>
+                <tr>
+                  <td>100</td>
+                  <td>
+                    Petroleum slack wax, grade 2															
+                  </td>
+                  <td>TU 300220696.009-2002</td>
+                  <td>
+                    2712903900; <br> 19.20.42.900
+                  </td>
+                </tr>
+              </tbody>
+  
+              <tbody>
+                <tr>
+                  <td>101</td>
+                  <td>
+                    Petroleum slack wax, grade 3															
+                  </td>
+                  <td>TU 300220696.009-2002</td>
+                  <td>
+                    2712903900; <br> 19.20.42.900
+                  </td>
+                </tr>
+              </tbody>
+  
+              <tbody>
+                <tr>
+                  <td>102</td>
+                  <td>
+                    Petroleum slack wax, grade 4															
+                  </td>
+                  <td>TU 300220696.009-2002</td>
+                  <td>
+                    2712903900; <br> 19.20.42.900
+                  </td>
+                </tr>
+              </tbody>
+  
+              <tbody>
+                <tr>
+                  <td>103</td>
+                  <td>
+                    Commercial contact sulfuric acid														
+                  </td>
+                  <td>GOST 2184-2013</td>
+                  <td>
+                    2807000001; <br> 20.13.24.330
+                  </td>
+                </tr>
+              </tbody>
+  
+              <tbody>
+                <tr>
+                  <td>104</td>
+                  <td>
+                    Commercial contact sulfuric acid, grade K														
+                  </td>
+                  <td>TU 300220696.043-2007</td>
+                  <td>
+                    2807000001; <br> 20.13.24.330
+                  </td>
+                </tr>
+              </tbody>
+  
+              <tbody>
+                <tr>
+                  <td>105</td>
+                  <td>
+                    Commercial gas liquid sulfur “Grade 9920”														
+                  </td>
+                  <td>TU 300042199.071-2020</td>
+                  <td>
+                    2503001000; <br> 20.13.66.000
+                  </td>
+                </tr>
+              </tbody>
+  
+              <tbody>
+                <tr>
+                  <td>106</td>
+                  <td>
+                    Commercial gas liquid sulfur “Grade 9998”														
+                  </td>
+                  <td>GOST 127.1-93</td>
+                  <td>
+                    2503001000; <br> 20.13.66.000
+                  </td>
+                </tr>
+              </tbody>
+  
+              <tbody>
+                <tr>
+                  <td>107</td>
+                  <td>
+                    Commercial gas liquid sulfur “Grade 9995”														
+                  </td>
+                  <td>GOST 127.1-93</td>
+                  <td>
+                    2503001000; <br> 20.13.66.000
+                  </td>
+                </tr>
+              </tbody>
+  
+              <tbody>
+                <tr>
+                  <td>108</td>
+                  <td>
+                    Commercial gas liquid sulfur “Grade 9990”														
+                  </td>
+                  <td>GOST 127.1-93	</td>
+                  <td>
+                    2503001000; <br> 20.13.66.000	
+                  </td>
+                </tr>
+              </tbody>
+  
+              <tbody>
+                <tr>
+                  <td>109</td>
+                  <td>
+                    Commercial gas granulated sulfur “Grade 9998” (rank А)														
+                  </td>
+                  <td>TU 300042199.072-2021</td>
+                  <td>
+                    2503001000; <br> 20.13.66.000	
+                  </td>
+                </tr>
+              </tbody>
+  
+              <tbody>
+                <tr>
+                  <td>110</td>
+                  <td>
+                    Commercial gas granulated sulfur “Grade 9998” (rank B)														
+                  </td>
+                  <td>TU 300042199.072-2021</td>
+                  <td>
+                    2713909000; <br> 19.20.42.900
+                  </td>
+                </tr>
+              </tbody>
+  
+              <tbody>
+                <tr>
+                  <td>111</td>
+                  <td>
+                    Commercial gas granulated sulfur “Grade 9995” (rank A)															
+                  </td>
+                  <td>TU 300042199.072-2021</td>
+                  <td>
+                    2503001000; <br> 20.13.66.000	
+                  </td>
+                </tr>
+              </tbody>
+  
+              <tbody>
+                <tr>
+                  <td>112</td>
+                  <td>
+                    Commercial gas granulated sulfur “Grade 9995” (rank B)															
+                  </td>
+                  <td>TU 300042199.072-2021</td>
+                  <td>
+                    2713909000; <br> 19.20.29.599	
+                  </td>
+                </tr>
+              </tbody>
+  
+              <tbody>
+                <tr>
+                  <td>113</td>
+                  <td>
+                    Commercial gas granulated sulfur “Grade 9990” (rank A)															
+                  </td>
+                  <td>TU 300042199.072-2021</td>
+                  <td>
+                    2503001000; <br> 20.13.66.000		
+                  </td>
+                </tr>
+              </tbody>
+  
+              <tbody>
+                <tr>
+                  <td>114</td>
+                  <td>
+                    Commercial gas granulated sulfur “Grade 9990” (rank B)															
+                  </td>
+                  <td>TU 300042199.072-2021</td>
+                  <td>
+                    2713909000; <br> 19.20.42.900			
+                  </td>
+                </tr>
+              </tbody>
+  
+              <tbody>
+                <tr>
+                  <td>115</td>
+                  <td>
+                    PM plasticizer oil														
+                  </td>
+                  <td>TU 3000421999.040-2016</td>
+                  <td>
+                    2710199800; <br> 19.20.29.599			
+                  </td>
+                </tr>
+              </tbody>
+  
+              <tbody>
+                <tr>
+                  <td>116</td>
+                  <td>
+                    PLASTICIZER OIL (PN-6 oil), grade PN-6sh													
+                  </td>
+                  <td>TU 38.1011217-89</td>
+                  <td>
+                    2713909000; <br> 19.20.29.599				
+                  </td>
+                </tr>
+              </tbody>
+  
+              <tbody>
+                <tr>
+                  <td>117</td>
+                  <td>
+                    RA-50 plasticizer oil														
+                  </td>
+                  <td>TU 300042199.065-2017</td>
+                  <td>
+                    2710199800; <br> 19.20.29.599				
+                  </td>
+                </tr>
+              </tbody>
+  
+              <tbody>
+                <tr>
+                  <td>118</td>
+                  <td>
+                    Fluxed bituminous blend														
+                  </td>
+                  <td>TU 300042199.063-2017</td>
+                  <td>
+                    2715000000; <br> 23.99.13.200					
+                  </td>
+                </tr>
+              </tbody>
+  
+              <tbody>
+                <tr>
+                  <td>119</td>
+                  <td>
+                    PS-55 petrolatum									
+                  </td>
+                  <td>TU 38.401166-90</td>
+                  <td>
+                    2712101000; <br> 19.20.42.900					
+                  </td>
+                </tr>
+              </tbody>
+  
+              <tbody>
+                <tr>
+                  <td>120</td>
+                  <td>
+                    PS-60 petrolatum										
+                  </td>
+                  <td>TU 38.401166-90</td>
+                  <td>
+                    2712101000; <br> 19.20.42.900					
+                  </td>
+                </tr>
+              </tbody>
+  
+              <tbody>
+                <tr>
+                  <td>121</td>
+                  <td>
+                    Petroleum extract										
+                  </td>
+                  <td>TU 05778477-25-93	</td>
+                  <td>
+                    2712101000; <br> 19.20.42.900					
+                  </td>
+                </tr>
+              </tbody>
+  
+              <tbody>
+                <tr>
+                  <td><b>9.</b></td>
+                  <td>
+                    <b>SOLVENTS</b>
+                  </td>
+                  <td></td>
+                  <td></td>
+                </tr>
+              </tbody>
+  
+              <tbody>
+                <tr>
+                  <td>122</td>
+                  <td>
+                    S4-150/200 nefras (white spirit substitute)											
+                  </td>
+                  <td>TU 100006485.147-2002</td>
+                  <td>
+                    2710122509; <br> 19.20.23.910					
+                  </td>
+                </tr>
+              </tbody>
+  
+              <tbody>
+                <tr>
+                  <td>123</td>
+                  <td>
+                    Grade 646 solvent											
+                  </td>
+                  <td>GOST 18188-2020	</td>
+                  <td>
+                    3814009000; <br> 20.30.22.700					
+                  </td>
+                </tr>
+              </tbody>
+  
+              <tbody>
+                <tr>
+                  <td>124</td>
+                  <td>
+                    Grade 647 solvent												
+                  </td>
+                  <td>GOST 18188-2020	</td>
+                  <td>
+                    3814009000; <br> 20.30.22.700					
+                  </td>
+                </tr>
+              </tbody>
+  
+              <tbody>
+                <tr>
+                  <td>125</td>
+                  <td>
+                    Grade 648 solvent													
+                  </td>
+                  <td>GOST 18188-2020	</td>
+                  <td>
+                    3814009000; <br> 20.30.22.700					
+                  </td>
+                </tr>
+              </tbody>
+  
+              <tbody>
+                <tr>
+                  <td>126</td>
+                  <td>
+                    Grade 651 solvent													
+                  </td>
+                  <td>TU 100006485.134-2001</td>
+                  <td>
+                    3814009000; <br> 20.30.22.700					
+                  </td>
+                </tr>
+              </tbody>
+  
+              <tbody>
+                <tr>
+                  <td>127</td>
+                  <td>
+                    Grade R-12 solvent												
+                  </td>
+                  <td>GOST 7827-74</td>
+                  <td>
+                    3814009000; <br> 20.30.22.730						
+                  </td>
+                </tr>
+              </tbody>
+  
+              <tbody>
+                <tr>
+                  <td>128</td>
+                  <td>
+                    Grade R-4 solvent													
+                  </td>
+                  <td>GOST 7827-74</td>
+                  <td>
+                    3814009000; <br> 20.30.22.730						
+                  </td>
+                </tr>
+              </tbody>
+  
+              <tbody>
+                <tr>
+                  <td>129</td>
+                  <td>
+                    Petroleum solvent (S2-80/120 nefras), higher grade													
+                  </td>
+                  <td>TU 100006485.148-2002</td>
+                  <td>
+                    2710122509; <br> 19.20.23.910							
+                  </td>
+                </tr>
+              </tbody>
+  
+              <tbody>
+                <tr>
+                  <td>130</td>
+                  <td>
+                    Petroleum solvent (S2-80/120 nefras), first grade														
+                  </td>
+                  <td>TU 100006485.148-2002</td>
+                  <td>
+                    2710122509; <br> 19.20.23.910							
+                  </td>
+                </tr>
+              </tbody>
+  
+            </table>
+          </div>
+  
+          <div class="table02-col">
+            <img src="images/gold-img.jpg" alt="">
+            <img src="images/oil-img.jpg" alt="">
+            <img src="images/gas-img.jpg" alt="">
+            <img src="images/engine-img.jpg" alt="">
+            <img src="images/solid-img.jpg" alt="">
+            <img src="images/balls-img.jpg" alt="">
+            <img src="images/truck-img.jpg" alt="">
+            <img src="images/white-sandy-img.jpg" alt="">
+            <img src="images/express-img.jpg" alt="">
+            <img src="images/black-box-img.jpg" alt="">
+            <img src="images/sec-3_img.jpg" alt="">
+            <img src="images/acid-img.jpg" alt="">
+            <img src="images/pomp-img.jpg" alt="">
+            <img src="images/beed-img.jpg" alt="">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- footer section of this page  -->
+    <footer class="footer-container">
+      <div class="footer-content">
+        <div class="footer-div">
+          <div>
+            <h1> DAMIR </h1>
+          </div>
+          <p class="contact-details">
+            © 2025 Ink AI Labs, Inc
+          </p>
+        </div>
+
+        <ul>
+          <li><a href="index.html">Products</a></li>
+          <li><a href="#products" id="product-link">About Us</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+    </footer>
+  </main>
+
+
+  <script src="scripts/navbar.js"></script>
+  <!-- Elfsight Website Translator | Untitled Website Translator -->
+    <script src="https://static.elfsight.com/platform/platform.js" async></script>
+    <div class="elfsight-app-e5a5c2cd-0849-4dfd-acb3-c6774ac223a2" data-elfsight-app-lazy></div>
+
+  <!-- login: u2544730
+  password: 1hUQPfD41e1Ev9EU
+  server ip: 31.31.196.95 -->
+</body>
+</html>
